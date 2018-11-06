@@ -4,6 +4,8 @@ CREATE USER IF NOT EXISTS 'ilhammhdd'@'localhost' IDENTIFIED BY 'modul5';
 
 GRANT ALL PRIVILEGES ON laboratorium_si.* TO 'ilhammhdd'@'localhost' WITH GRANT OPTION;
 
+USE laboratorium_si;
+
 CREATE TABLE IF NOT EXISTS laboratorium(
   `id` INT(11) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `nama` VARCHAR(50),
